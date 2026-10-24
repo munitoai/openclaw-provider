@@ -11,8 +11,10 @@ Munito AI serves open models for Europe, private by default, on an OpenAI-compat
 ## Install
 
 ```bash
-openclaw plugins install git:github.com/munitoai/openclaw-provider
+openclaw plugins install npm:@munitoai/openclaw-provider
 ```
+
+To install from this repository instead, run `openclaw plugins install git:github.com/munitoai/openclaw-provider`.
 
 OpenClaw asks you to confirm the source and to accept the capabilities of the plugin. In a script, add `--force --accept-capabilities`.
 If a Gateway runs, restart it with `openclaw gateway restart`.
