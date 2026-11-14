@@ -97,6 +97,10 @@ The model rows come from `models.json`. A model is on a provider when its `price
 1. Edit `models.json`.
 2. Run `npm run build`. The script writes the rows into `openclaw.plugin.json`.
 3. Run `npm run check`. It fails when `openclaw.plugin.json` is not current.
+4. Run `python3 .github/check_models.py`. It fails when `models.json` differs from the Munito AI API.
+
+A check in CI makes the same comparison each day.
+The plugin lists each Munito AI model that calls tools and has a context window of 64,000 tokens or more.
 
 ## License
 

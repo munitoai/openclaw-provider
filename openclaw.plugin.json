@@ -108,7 +108,7 @@
           },
           {
             "id": "deepseek-ai/deepseek-v4.1-flash-1017",
-            "name": "DeepSeek-V4.1-Flash-1017 (preview)",
+            "name": "DeepSeek-V4.1-Flash-1017",
             "reasoning": true,
             "input": ["text", "image"],
             "contextWindow": 1048576,
@@ -201,6 +201,25 @@
               "output": 0.28,
               "cacheRead": 0.022,
               "cacheWrite": 0.11
+            },
+            "compat": {
+              "supportedReasoningEfforts": ["none", "low", "high", "max"],
+              "supportsPromptCacheKey": true,
+              "thinkingFormat": "openai"
+            }
+          },
+          {
+            "id": "deepseek-ai/deepseek-v4.1-flash-1017",
+            "name": "DeepSeek-V4.1-Flash-1017",
+            "reasoning": true,
+            "input": ["text", "image"],
+            "contextWindow": 1048576,
+            "maxTokens": 943718,
+            "cost": {
+              "input": 0.3,
+              "output": 1.2,
+              "cacheRead": 0.006,
+              "cacheWrite": 0.3
             },
             "compat": {
               "supportedReasoningEfforts": ["none", "low", "high", "max"],
