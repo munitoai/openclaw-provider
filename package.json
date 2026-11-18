@@ -1,6 +1,6 @@
 {
   "name": "@munitoai/openclaw-provider",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Munito AI in OpenClaw: open models for Europe, private by default",
   "keywords": [
     "openclaw",
